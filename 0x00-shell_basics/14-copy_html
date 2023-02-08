@@ -1,0 +1,3 @@
+#!/bin/bash
+cp -ut ../ $(find . -name "*.html")
+

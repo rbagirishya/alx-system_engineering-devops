@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -U -1 --group-directories-first --ignore='*~' | awk 'BEGIN{ ORS=","; first=1 } /^\./{ if (first) { first=0 } else { print "," } } { print $0 } END{ print "\n" }'
+ls -mpa
